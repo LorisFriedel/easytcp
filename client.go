@@ -77,7 +77,7 @@ func (c *Client) Run(addr string) error {
 		return err
 	}
 	c.Conn = dial
-	go c.handleConn(c.Conn)
+	c.handleConn(c.Conn)
 	return nil
 }
 
