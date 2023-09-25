@@ -4,7 +4,7 @@
 package easytcp
 
 import (
-	"encoding/json"
+	"github.com/goccy/go-json"
 )
 
 var _ Codec = &JsonCodec{}

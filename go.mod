@@ -1,17 +1,18 @@
 module github.com/DarthPestilane/easytcp
 
-go 1.20
+go 1.21
 
 require (
+	github.com/goccy/go-json v0.10.2
 	github.com/golang/mock v1.6.0
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.3.1
 	github.com/json-iterator/go v1.1.12
 	github.com/olekukonko/tablewriter v0.0.5
-	github.com/sirupsen/logrus v1.9.0
-	github.com/spf13/cast v1.5.0
-	github.com/stretchr/testify v1.8.2
+	github.com/sirupsen/logrus v1.9.3
+	github.com/spf13/cast v1.5.1
+	github.com/stretchr/testify v1.8.4
 	github.com/vmihailenco/msgpack/v5 v5.3.5
-	google.golang.org/protobuf v1.30.0
+	google.golang.org/protobuf v1.31.0
 )
 
 require (
